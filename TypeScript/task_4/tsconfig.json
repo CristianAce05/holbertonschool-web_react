@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "noEmit": true,
     "sourceMap": true,
     "noImplicitAny": true,
     "module": "es6",
     "target": "es5",
-    "allowJs": true,
+    "allowJs": false,
     "moduleResolution": "node",
     "ignoreDeprecations": "6.0"
-  }
+  },
+  "include": ["js/subjects/**/*.ts"]
 }
